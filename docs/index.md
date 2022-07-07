@@ -1,3 +1,3 @@
-== Audio Utils for Android == 
+## Audio Utils for Android
 
 This is an audio utility package for Android.
