@@ -1,4 +1,4 @@
-package com.deeplyinc.library
+package com.deeplyinc.library.audioutils
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
