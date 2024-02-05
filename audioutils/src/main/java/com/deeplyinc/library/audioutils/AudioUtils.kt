@@ -31,11 +31,11 @@ class AudioUtils {
         ) {
             outputStream.write(
                 buildRiffHeader(
-                audioSamples = audioSamples,
-                sampleRate = sampleRate,
-                numChannels = numChannels,
-                bitDepthInByte = bitDepthInByte
-            )
+                    audioSamples = audioSamples,
+                    sampleRate = sampleRate,
+                    numChannels = numChannels,
+                    bitDepthInByte = bitDepthInByte
+                )
             )
             audioSamples.forEach {
                 outputStream.write(it.toByteArray())
